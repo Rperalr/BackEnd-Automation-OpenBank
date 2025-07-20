@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Collection.POSTRequest.TestVerificaSMS">
+        <methods>
+          <include name="AssertTestAPICodPostal"/>
+          <include name="VerificarSMS"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.POSTRequest.TestVerificaSMS -->
+      <class name="Collection.GETRequest.TestAPIonboardingObtenerFirmaDigitalid">
+        <methods>
+          <include name="AssertObjectModelToken"/>
+          <include name="OnboardingObtenerFirmaDigitalid"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.GETRequest.TestAPIonboardingObtenerFirmaDigitalid -->
+      <class name="Collection.GETRequest.TestAPIobtenerAplicacionid">
+        <methods>
+          <include name="obtenerAplicacionid"/>
+          <include name="AssertObjectModelToken"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.GETRequest.TestAPIobtenerAplicacionid -->
+      <class name="Collection.POSTRequest.TestInicioSesion">
+        <methods>
+          <include name="AssertTestAPICodPostal"/>
+          <include name="InicioSesion"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.POSTRequest.TestInicioSesion -->
+      <class name="Collection.POSTRequest.TestSalirSesion">
+        <methods>
+          <include name="setup"/>
+          <include name="SalirSesion"/>
+          <include name="AssertTestAPICodPostal"/>
+        </methods>
+      </class> <!-- Collection.POSTRequest.TestSalirSesion -->
+      <class name="Collection.GETRequest.TestAPIobtenerFirmaArchivo">
+        <methods>
+          <include name="obtenerFirmaArchivo"/>
+          <include name="AssertObjectModelToken"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.GETRequest.TestAPIobtenerFirmaArchivo -->
+      <class name="Collection.POSTRequest.TestVerificaPassword">
+        <methods>
+          <include name="InicioSesion"/>
+          <include name="AssertTestAPICodPostal"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Collection.POSTRequest.TestVerificaPassword -->
+      <class name="Collection.GETRequest.TestAPIobtenerAplicacionImages">
+        <methods>
+          <include name="setup"/>
+          <include name="AssertObjectModelToken"/>
+          <include name="obtenerAplicacionImages"/>
+        </methods>
+      </class> <!-- Collection.GETRequest.TestAPIobtenerAplicacionImages -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
