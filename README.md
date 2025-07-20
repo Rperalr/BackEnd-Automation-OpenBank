@@ -11,7 +11,7 @@ Este proyecto nos sirve para poder validar la API de la landing de OpenBank y ve
 1. Clone the repository:
 
 bash
-(https://github.com/Rperalr/BackEnd-Automation-OpenBank.git)
+(https://github.com/Rperalr/BackEnd-Automation-OpenBank/tree/QA_DEV)
 cd Proyecto_OB
 
 2. Run tests with Maven:
