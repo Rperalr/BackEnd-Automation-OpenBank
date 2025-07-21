@@ -12,7 +12,7 @@ Este proyecto nos sirve para poder validar la API de la landing de OpenBank y ve
 
 bash
 (https://github.com/Rperalr/BackEnd-Automation-OpenBank/tree/QA_DEV)
-cd Proyecto_OB
+cd BackEnd-Automation-OpenBank
 
 2. Run tests with Maven:
 
