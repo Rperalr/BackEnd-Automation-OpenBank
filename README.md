@@ -24,13 +24,26 @@ mvn test
 ##  Project Structure
 
 Arquitectura Java API RestAssured With Cucumber 
-- Cucumber (BDD Gherkin / Junit)
-- ExtentReport
-- utils
-- videoRecorder
-- log4j
-- TestNg.xml
-- POM
+Api-OpenBank/
+├── logs/
+├── src/
+│   └── main/
+│       └── java/
+│           ├── ExtentRepor/
+│           ├── implementsIntsnces/
+│           ├── uitl/
+│           ├── videoRecorder/
+│           └── Base/
+│               ├── modelCucumber/
+│               ├── runner/
+│               ├── steps/
+│               └── modelJunit/
+└── resources/
+    ├── .XML
+    ├── .pom
+    ├── .log4j
+    ├── .readme
+    └── .gitignosre
   
 ##  Ejemplo de Test Java POO (RestAssured)
 
