@@ -22,15 +22,18 @@ public class apiGetPageControllerOpenBank {
         return response;
     }
 
-    public void openBnkGetRequest(){
+    private void openBnkGetRequestMethod(){
         Response response = openBnkRequest();
         assertEquals("El código respuesta es:"
                  + response.getStatusCode() ,Response200, response.getStatusCode());
         System.out.println("El código respuesta es:"
                  + response.getStatusCode());
     }
+    public void openBnkGetRequestFunction(){
+       this.openBnkGetRequestMethod();
+    }
 
-    private Response openBnkRequestFail() {
+private Response openBnkRequestFail() {
         Response response = RestAssured
                 .given()
                 .when().get(API_OPENBANK_Fail)
