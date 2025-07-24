@@ -15,7 +15,9 @@ public class testGetPageOpenBank extends BaseTest {
     public void testOpenBankUrlGetPage() {
 
         this.CreateTestReportHtml();
-            try {this.apiGetPageControllerOpenBank.openBnkGetRequestFunction();
+            try {
+                this.apiGetPageControllerOpenBank.
+                                openBnkGetRequestFunction();
 
                 this.test.log(Status.PASS, "Inyecciòn fue exitoso");
                 this.test.log(Status.INFO, "Test fue exitoso");
@@ -29,7 +31,9 @@ public class testGetPageOpenBank extends BaseTest {
         public void testOpenBankUrlGetPageFail() {
 
             this.CreateTestReportHtml();
-            try {this.apiGetPageControllerOpenBank.openBnkGetRequestFail();
+            try {
+                this.apiGetPageControllerOpenBank.
+                                 openBnkGetRequestFail();
 
                 this.test.log(Status.PASS, "Inyecciòn fue exitoso");
                 this.test.log(Status.INFO, "Test fue exitoso");

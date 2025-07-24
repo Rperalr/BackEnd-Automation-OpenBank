@@ -23,7 +23,7 @@ public class Constant {
     //Timestamp
     public static String TIME_STAMP = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
     public static String API_OPENBANK = "https://www.openbank.es";
-    public static String API_OPENBANK_Fail = "https://.openbank.es";
+    public static String API_OPENBANK_Fail = "https://www.openbank.es";
 
     //Response
     public static int Response200 = 200;
